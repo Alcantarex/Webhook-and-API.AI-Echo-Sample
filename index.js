@@ -20,7 +20,7 @@ restService.post("/echo", function(req, res) {
     req.body.queryResult.parameters.echoText
       ? req.body.queryResult.parameters.echoText
     //? req.body.queryResult.fulfillmentText
-      : "Seems like some problem. Speak again.";
+      : "Ocurrió un problema, vato. Habla de nuevo.";
   
   var speechResponse = {
     google: {
